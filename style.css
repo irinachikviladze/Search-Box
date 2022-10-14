@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background:#e74c3c;
+    
  }
  .search-box{
     position: absolute;
@@ -12,7 +13,6 @@ body{
     height: 40px;
     border-radius: 40px;
     padding: 10px;
-
  }
  .search-box:hover > .search-txt{
     width: 240px;
@@ -32,6 +32,7 @@ body{
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    overflow: hidden;
  }
  .search-txt{
     border:none;
@@ -45,3 +46,4 @@ body{
     line-height: 40px;
     width: 0px;   
  }
+ /* responsive*/
