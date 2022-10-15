@@ -1,8 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background:#e74c3c;
-    
+    background:#e74c3c; 
  }
  .search-box{
     position: absolute;
@@ -45,10 +44,9 @@ body{
     transition: 0.4s;
     line-height: 40px;
     width: 0px;  
-
  }
  /* responsive*/
- @media only screen and (max-width: 630px){
+ @media only screen and (max-width: 828px){
    .search-box:hover > .search-txt{
       width: 125px;
       }
